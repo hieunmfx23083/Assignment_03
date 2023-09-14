@@ -1,0 +1,108 @@
+@media only screen and (max-width: 991px) {
+  /* ẩn avatar phần nav-bar */
+  .avatar {
+    width: 50px;
+    border-bottom: 1px solid hsla(210, 10%, 23%, 0.1);
+  }
+  .avatar-img {
+    height: 0px !important;
+    width: 0px !important;
+  }
+  .section-about {
+    width: 100%;
+  }
+  /* Experience */
+
+  /* certificate */
+  .cer-title {
+    width: 90% !important;
+    margin: auto !important;
+    /* padding: 0px !important; */
+  }
+  .cert h6 {
+    font-size: 10px;
+    text-transform: uppercase;
+  }
+  .cert li {
+    font-size: 10px;
+    list-style: none;
+  }
+  .cert img {
+    height: 83%;
+    width: 90%;
+    margin-left: 20px;
+  }
+  .cert .d-flex {
+    flex-wrap: wrap;
+    gap: 20%;
+  }
+  .cert1::before {
+    content: "";
+    background-color: #d6c08d;
+    height: 39%;
+    width: 1px;
+    position: absolute;
+    left: 50%;
+    top: 13%;
+  }
+  .cert3::before {
+    content: "";
+    background-color: #d6c08d;
+    height: 1px;
+    width: 81%;
+    position: absolute;
+    left: 10%;
+    top: 53%;
+  }
+  /* Project */
+  .pro-place {
+    flex-wrap: wrap;
+    font-size: 0.5rem;
+  }
+  .pro-detail {
+    font-size: 0.6rem;
+  }
+  .pro-name {
+    font-size: 0.6rem !important;
+  }
+  .pro-year {
+    font-size: 0.6rem;
+  }
+  .pro-detail-title {
+    font-size: 0.55rem;
+  }
+
+  /* Project charter page  */
+  /* goals section  */
+  .goal-icon {
+    text-align: center;
+  }
+  /* scopes section  */
+  .scopes {
+    border-bottom: 10px solid #1971c2;
+  }
+  .pro-char-1 {
+    border-right: none;
+  }
+  .pro-char-2 {
+    border-right: none;
+  }
+  /* Teams  */
+  .teams {
+    height: 550px;
+  }
+  .team-icon {
+    text-align: center;
+  }
+  /* Primary  */
+  .primary-icon {
+    text-align: center;
+  }
+  .primary {
+    border-bottom: 10px solid #1971c2;
+  }
+  /* Time-line  */
+  .tl-detail {
+    padding-top: 10px;
+  }
+}
